@@ -18,15 +18,17 @@ Or install it yourself as:
 
     $ gem install social_share_count
 
-    ```ruby
-      require 'social_share_count'
-
-      class ABC < ActiveRecord::Base
-        def facebook_share_count
-          SocialShareCount.count('facebook', 'http://google.vn')
-        end
-      end
-    ```
+    $ require 'social_share_count'
 
 ## Usage
+
+```ruby
+
+  class ABC < ActiveRecord::Base
+    def facebook_share_count
+      SocialShareCount.count('facebook', 'http://google.vn')
+    end
+  end
+```
+
 
